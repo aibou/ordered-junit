@@ -4,7 +4,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 /**
- * Created by A13167 on 2014/01/22.
+ * Created by aibou on 2014/01/22.
  */
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Order {

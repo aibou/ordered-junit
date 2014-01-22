@@ -9,7 +9,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * Created by A13167 on 2014/01/22.
+ * Created by aibou on 2014/01/22.
  */
 public class OrderedRunner extends BlockJUnit4ClassRunner {
 	public OrderedRunner(Class<?> klass) throws InitializationError {
@@ -31,7 +31,7 @@ public class OrderedRunner extends BlockJUnit4ClassRunner {
 					return 1;
 				}
 
-				return o1.value().getPriorityNumber() - o2.value().getPriorityNumber();
+				return o2.value().getPriorityNumber() - o1.value().getPriorityNumber();
 			}
 		});
 		return methodList;

@@ -1,12 +1,12 @@
 package io.aibou.java.junit.ordered;
 
 /**
- * Created by A13167 on 2014/01/22.
+ * Created by aibou on 2014/01/22.
  */
 public enum Priority {
-	HIGH(64),
-	NORMAL(0),
-	LOW(-64);
+	HIGH(128),
+	NORMAL(64),
+	LOW(32);
 
 	private Priority(int priorityNumber) {
 		this.priorityNumber = priorityNumber;
